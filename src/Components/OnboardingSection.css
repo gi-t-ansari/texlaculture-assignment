@@ -1,0 +1,116 @@
+
+
+.input-container {
+    position: relative;
+    margin-top: 10px;
+    z-index: 1;
+    padding: 0px 20px;
+}
+
+select {
+    width: fit-content;
+    padding: 10px;
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 150px;
+}
+
+.input-container > label {
+    position: absolute;
+    font-size: 10px;
+    background-color: #fff;
+    left: 40px;
+    top: -9px;
+    padding: 2.5px;
+}
+
+.input-container input {
+    padding: 10px;
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-left: 10px;
+    width: 60%;
+}
+
+#dense {
+    background-color: #cbd5e1;
+}
+
+.small-yellow-dot {
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    background-color: #ffab00;
+}
+
+.small-green-dot {
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    background-color: #36B37E;
+}
+
+.small-orange-dot {
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    background-color: #FF5630;
+}
+
+.small-blue-dot {
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    background-color: #3366ff;
+}
+
+.frame1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.metrics-container {
+    padding: 20px;
+    border: 1px solid #f1f5f9;
+    border-radius: 10px;
+    margin-left: 10px;
+    width: 402px;
+}
+
+.metrics-data-img-container {
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 20%;
+}
+
+.west-region-data {
+    position: absolute;
+    width: 103px;
+
+}
+
+.north-region-data {
+    width: 116px;
+    position: absolute;
+    top: -10px;
+    left: 255px;
+}
+
+.south-region-data {
+    width: 118px;
+    position: absolute;
+    top: 145px;
+    left: 255px;
+}
+
+.east-region-data {
+    width: 120px;
+    position: absolute;
+    top: 155px;
+}
+
